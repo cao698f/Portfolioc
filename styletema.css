@@ -1,0 +1,206 @@
+/*MOBIL*/
+
+/*TEKST*/
+h1 {
+    font-family: 'aw-conqueror-dido', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+h2 {
+    font-family: 'aw-conqueror-dido', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+
+h3 {
+    font-family: 'aw-conqueror-dido', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+
+
+}
+
+h4 {
+    font-family: 'aw-conqueror-dido', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    line-height: 2;
+}
+
+
+body {
+    background-color: black;
+    /*
+    background-image: url(billeder/baggrund_mobil_Tegnebr%C3%A6t%201.png);
+    background-size: cover;
+*/
+    margin: 0;
+
+
+}
+
+img {
+    width: 100%;
+    width: 400px;
+    height: auto;
+    margin-top: 100px;
+
+
+
+
+}
+
+
+section {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+.box {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 70px;
+
+
+    background-color: #191919;
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+}
+
+/*KNAP*/
+
+.button {
+
+    display: inline-block;
+    padding: 1em 3em;
+    background-color: #801A64;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    transition: all 0.15s;
+
+}
+
+a.button:hover {
+    color: black;
+    background-color: white;
+}
+
+a.button:active {
+    color: #BBBBBB;
+}
+
+
+
+/*FOOTER*/
+footer {
+    padding-top: 1px;
+    height: 105px;
+    margin-top: 40px;
+    opacity: 0.6;
+
+}
+
+/*DESKTOP*/
+
+@media (min-width: 769px) {
+
+
+    #section2_01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+
+    }
+
+    #section2_02 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+
+
+
+    #section4_01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+
+    }
+
+
+    #section5_01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+
+    }
+
+    #section5_02 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+
+
+
+    #section5_03 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+
+
+
+}
