@@ -135,10 +135,9 @@ section {
 
 
     #baggrund_forside {
-        background-image: url(billeder/baggrund2_cut.png);
-
+        background-image: url(billeder/1x/Aktiv%204.png);
         width: 100vw;
-        height: 51vw;
+        height: 47vw;
     }
 
     /*NAVIGATION*/
@@ -218,8 +217,8 @@ section {
     /*FOOTER*/
     footer {
         padding-top: 1px;
-        height: 105px;
-        margin-top: -100px;
+        height: 60px;
+        margin-top: -60px;
 
 
 
