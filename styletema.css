@@ -70,15 +70,6 @@ img {
 }
 
 
-section {
-    margin: 30px;
-
-    margin-left: 50px;
-    margin-right: 50px;
-
-}
-
-
 
 .box {
     width: 90vw;
@@ -95,12 +86,33 @@ section {
 }
 
 
+section {
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+.col {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+#drink {
+    width: 200px;
+    justify-content: center;
+}
+
+
+
+
 /*KNAP*/
 #knap {
     width: 100%;
     display: grid;
     justify-content: center;
-
 
 }
 
@@ -159,6 +171,17 @@ footer #footer_indhold {
 @media (min-width: 769px) {
 
 
+
+    .box {
+
+        margin-bottom: 70px;
+        margin-top: 100px;
+
+
+    }
+
+
+
     #section2_01 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -166,7 +189,15 @@ footer #footer_indhold {
         margin-right: 100px;
         margin-left: 100px;
 
+
     }
+
+    #drink {
+        padding-top: 0px;
+
+    }
+
+    #section2_01 .col h3 {}
 
     #section2_02 {
         display: grid;
