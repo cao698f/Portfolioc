@@ -226,7 +226,7 @@ section {
     /*FOOTER*/
     footer {
         padding-top: 0px;
-        height: 60px;
+        height: 100px;
         margin-top: -60px;
 
     }
@@ -234,6 +234,7 @@ section {
     #footer_indhold {
         display: grid;
         grid-template-columns: 35% 15% 15% 35%;
+        ;
 
 
     }
@@ -247,6 +248,11 @@ section {
     #icon {
         grid-column-start: 3;
         place-self: center;
+
+    }
+
+    footer img {
+        margin-top: 0;
 
     }
 }
