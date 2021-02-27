@@ -229,9 +229,24 @@ section {
         height: 60px;
         margin-top: -60px;
 
+    }
 
+    #footer_indhold {
+        display: grid;
+        grid-template-columns: 35% 15% 15% 35%;
 
 
     }
 
+    #navn {
+        grid-column-start: 2;
+
+
+    }
+
+    #icon {
+        grid-column-start: 3;
+        place-self: center;
+
+    }
 }
