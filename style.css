@@ -168,6 +168,21 @@ section {
         height: 47vw;
     }
 
+    #ommig_link,
+    #portfolio_link {
+        display: grid;
+        justify-content: center;
+    }
+
+    #trekant1 {
+        width: 800px;
+    }
+
+    #trekant2 {
+        width: 700px;
+
+    }
+
     /*NAVIGATION*/
     #menuknap {
         display: none;
