@@ -1,0 +1,2 @@
+forside:
+header mobil: forlænger siden, når åben
