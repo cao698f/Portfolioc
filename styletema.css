@@ -130,10 +130,34 @@ a.button:active {
 
 /*FOOTER*/
 footer {
-    padding-top: 1px;
-    height: 105px;
-    margin-top: 40px;
-    opacity: 0.6;
+    padding-top: 0px;
+    height: 100px;
+    margin-top: -60px;
+
+}
+
+#footer_indhold {
+    display: grid;
+    grid-template-columns: 35% 15% 15% 35%;
+    ;
+
+
+}
+
+#navn {
+    grid-column-start: 2;
+
+
+}
+
+#icon {
+    grid-column-start: 3;
+    place-self: center;
+
+}
+
+footer img {
+    margin-top: 0;
 
 }
 
