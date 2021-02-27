@@ -64,22 +64,20 @@ body {
 
 img {
     width: 100%;
-    width: 400px;
-    height: auto;
+
     margin-top: 100px;
-
-
-
 
 }
 
 
 section {
-    margin-top: 100px;
+    margin: 30px;
+
     margin-left: 50px;
     margin-right: 50px;
 
 }
+
 
 
 .box {
@@ -96,7 +94,15 @@ section {
 
 }
 
+
 /*KNAP*/
+#knap {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+
+}
 
 .button {
 
@@ -107,13 +113,14 @@ section {
     border-radius: 4px;
     margin-top: 40px;
     margin-bottom: 40px;
-    box-sizing: border-box;
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     color: white;
     text-align: center;
     transition: all 0.15s;
+
+
 
 }
 
@@ -127,39 +134,25 @@ a.button:active {
 }
 
 
-
 /*FOOTER*/
 footer {
-    padding-top: 0px;
-    height: 100px;
-    margin-top: -60px;
-
-}
-
-#footer_indhold {
-    display: grid;
-    grid-template-columns: 35% 15% 15% 35%;
-    ;
-
-
-}
-
-#navn {
-    grid-column-start: 2;
-
-
-}
-
-#icon {
-    grid-column-start: 3;
-    place-self: center;
-
+    background-color: rgb(128, 26, 100);
+    text-align: center;
+    height: 120px;
 }
 
 footer img {
-    margin-top: 0;
+    margin-top: -25px;
+    width: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
+
+footer #footer_indhold {
+    padding-top: 1px;
+}
+
 
 /*DESKTOP*/
 
@@ -224,7 +217,38 @@ footer img {
         margin-left: 100px;
     }
 
+    /*FOOTER*/
+    footer {
+        padding-top: 0px;
+        height: 100px;
+        margin-top: -60px;
 
+    }
+
+    #footer_indhold {
+        display: grid;
+        grid-template-columns: 35% 15% 15% 35%;
+        ;
+
+
+    }
+
+    #navn {
+        grid-column-start: 2;
+
+
+    }
+
+    #icon {
+        grid-column-start: 3;
+        place-self: center;
+
+    }
+
+    footer img {
+        margin-top: 0;
+
+    }
 
 
 }
