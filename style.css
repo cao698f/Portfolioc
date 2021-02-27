@@ -65,11 +65,14 @@ img {
 }
 
 #baggrund_forside {
-    background-image: url(billeder/baggrund_mobil_Tegnebr%C3%ABt%201.png);
+    background-image: url(billeder/baggrund_mobil_cut.png);
     background-size: cover;
     width: 100vw;
-    height: 217vw;
+    height: 200vw;
     margin: 0;
+
+
+
 }
 
 /*Navigation*/
@@ -111,10 +114,11 @@ img {
 
 /*FOOTER*/
 footer {
-    background-color: #191919;
+    background-color: rgb(128, 26, 100);
+
     text-align: center;
     height: 100px;
-    margin-top: -110px;
+    margin-top: -100px;
     padding-top: 10px;
 
 }
