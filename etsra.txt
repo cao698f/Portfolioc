@@ -7,3 +7,6 @@ jeg brugte margin left/rigth til at ændre billedstørrelserne. denne løsning e
 i stedet skulle jeg have brugt img width og brugt margin auto, eller ligende til at placere billederne.
 
 tema4: bullshit tekst til Design, så der ikke kommer kæmpe mellemrum imellem h3 og p. 
+
+Om mig side:
+ikke særlig responsiv, da jeg har brugt pixels til at placere elemneterne. Burde i stedet have brugt fx vw.
