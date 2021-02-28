@@ -103,42 +103,20 @@ img {
     margin-bottom: 5vw;
 }
 
+
+
+
 /*OM MIG*/
 
-.boxommig {
-    width: 170px;
-    height: 350px;
-    background-color: #191919;
-    position: absolute;
-    left: 87px;
-    top: -55px;
-    z-index: 10;
-
-
-}
-
-
-#velkommen {
-    margin-top: 90px;
-    text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    position: relative;
-    width: auto;
-    height: auto;
-
-}
-
-#velkommen h3 {
+#ommig1 h3 {
     margin-bottom: -10px;
-    position: relative;
-    z-index: 20;
     font-size: 2.5rem;
+    text-align: center;
+    align-content: center;
 }
 
-#velkommen p {
-    position: relative;
-    z-index: 20;
+#ommig1 p {
+    text-align: center;
     font-size: 1.5rem;
     font-family: 'aw-conqueror-dido', serif;
 }
