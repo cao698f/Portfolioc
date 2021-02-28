@@ -353,46 +353,31 @@ section {
 
 
 
-
-
-
     /*OM MIG*/
 
-    .boxommig {
-        width: 550px;
-        height: 520px;
-        background-color: #191919;
-        position: absolute;
-        left: 330px;
-        top: -90px;
-        z-index: 10;
+    #ommig1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    #CVbillede {
+        width: 60%;
+        margin-top: 15vw;
+        margin-left: 7vw;
 
     }
 
+    #ommig1 h3 {
+        margin-top: 15vw;
 
-    #velkommen {
-        margin-top: 250px;
-        text-align: left;
-        margin-left: 160px;
-        position: relative;
-        width: auto;
-        height: auto;
-
-    }
-
-    #velkommen h3 {
         margin-bottom: -20px;
-        position: relative;
-        z-index: 20;
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 
-    #velkommen p {
-        position: relative;
-        z-index: 20;
-        font-size: 2.5rem;
+    #ommig1 p {
+        font-size: 2rem;
         font-family: 'aw-conqueror-dido', serif;
+        margin-bottom: 2vw;
     }
 
     /*KNAP*/
@@ -418,8 +403,6 @@ section {
         text-align: center;
         transition: all 0.15s;
         position: relative;
-        left: -200px;
-        z-index: 20;
 
 
 
