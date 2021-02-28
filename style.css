@@ -175,6 +175,10 @@ a.button:active {
 
 /*Navigation*/
 
+#logo {
+    width: 0%;
+}
+
 .hidden {
     display: none;
     /*
@@ -189,6 +193,9 @@ a.button:active {
     display: inline-block;
     font-size: 7vw;
     color: #801A64;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 #menu {
@@ -197,6 +204,7 @@ a.button:active {
     transition: transform .3s;
     text-align: center;
     padding: 20px;
+
 }
 
 #menu a {
@@ -208,6 +216,13 @@ a.button:active {
     font-weight: 400;
     text-decoration: none;
 }
+
+
+#logo {
+    opacity: 0;
+
+}
+
 
 
 /*FOOTER*/
@@ -355,6 +370,8 @@ section {
         /* Set the navbar to fixed position */
         top: 0;
         z-index: 30;
+        opacity: 1;
+
 
 
     }
