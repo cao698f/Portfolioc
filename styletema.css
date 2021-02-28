@@ -105,7 +105,18 @@ section {
     justify-content: center;
 }
 
+#knapux {
 
+    margin-left: 21vw;
+}
+
+#knappilot {
+    margin-left: 10vw;
+}
+
+#knapredesign {
+    margin-left: 10vw;
+}
 
 
 /*KNAP*/
@@ -310,6 +321,28 @@ footer #footer_indhold {
     #knapredesign {
         margin-top: -17vw;
         margin-left: 10vw;
+    }
+
+
+    #section3_01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    #section3_01 p {
+        margin-top: -16vw;
+    }
+
+    #ux_billede {
+        width: 150%;
+        margin-bottom: 10vw;
+
+    }
+
+    #knapux {
+        margin-top: -18vw;
+        margin-left: 15vw;
     }
 
     /*KNAP*/
