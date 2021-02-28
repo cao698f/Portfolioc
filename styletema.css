@@ -175,7 +175,7 @@ footer #footer_indhold {
 
     .box {
 
-        margin-bottom: 70px;
+        margin-bottom: 15vw;
         margin-top: 100px;
 
 
@@ -220,6 +220,19 @@ footer #footer_indhold {
 
     }
 
+    #section4_02 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #UI {
+        width: 150%;
+        margin-left: -5vw;
+    }
+
+    #section4_03 p {
+        text-align: center;
+    }
 
     #section5_01 {
         display: grid;
@@ -230,6 +243,16 @@ footer #footer_indhold {
 
     }
 
+
+    #section5_01 p {
+        margin-top: -24vw;
+    }
+
+    #knappilot {
+        margin-top: -30vw;
+        margin-left: 10vw;
+    }
+
     #section5_02 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -238,8 +261,9 @@ footer #footer_indhold {
         margin-left: 100px;
     }
 
-
-
+    #section5_02 p {
+        margin-top: -27vw;
+    }
 
     #section5_03 {
         display: grid;
@@ -249,6 +273,14 @@ footer #footer_indhold {
         margin-left: 100px;
     }
 
+    #section5_03 p {
+        margin-top: -12vw;
+    }
+
+    #knapredesign {
+        margin-top: -17vw;
+        margin-left: 10vw;
+    }
 
     /*KNAP*/
     #knap {
