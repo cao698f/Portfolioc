@@ -171,6 +171,22 @@ footer #footer_indhold {
 
 @media (min-width: 769px) {
 
+    #logo {
+        width: 4%;
+        background-color: rgba(250, 235, 215, 0);
+        padding: 0;
+        padding: 1%;
+        position: fixed;
+        /* Set the navbar to fixed position */
+        top: 0;
+        z-index: 30;
+        opacity: 1;
+        margin-top: 0;
+
+
+
+    }
+
 
 
     .box {
