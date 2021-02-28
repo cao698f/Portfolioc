@@ -249,24 +249,35 @@ section {
 
 
     #baggrund_forside {
-        background-image: url(billeder/1x/Aktiv%204.png);
+        background-image: url(billeder/baggrund_ny__Tegnebr%C3%A6t%201.png);
         width: 100vw;
         height: 47vw;
     }
 
-    #ommig_link,
-    #portfolio_link {
-        display: grid;
-        justify-content: center;
+    #txt h3 {
+        text-align: center;
+        color: #801A64;
     }
 
+    #ommig_link,
+    #portfolio_link {
+        width: 100%;
+    }
+
+
     #trekant1 {
-        width: 800px;
+        width: 60%;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+
     }
 
     #trekant2 {
-        width: 700px;
-
+        width: 60%;
+        margin-left: 20vw;
+        margin-right: 20vw;
     }
 
     /*NAVIGATION*/
@@ -279,6 +290,24 @@ section {
         height: 30px;
         width: 300px;
         background-color: black;
+
+        position: fixed;
+        /* Set the navbar to fixed position */
+        top: 0;
+        /* Position the navbar at the top of the page */
+        width: 100%;
+        /* Full width */
+    }
+
+    .content {
+        padding: 16px;
+    }
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 
     ul {
