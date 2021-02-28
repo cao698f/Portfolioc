@@ -72,24 +72,36 @@ img {
 /*FORSIDE*/
 
 #baggrund_forside {
-    background-image: url(billeder/baggrund_mobil_cut.png);
+    background-image: url(billeder/mobilforside.ny-05.png);
     background-size: cover;
-    width: 100vw;
-    height: 200vw;
+    width: 100%;
+    height: 108vw;
     margin: 0;
-
-
 
 }
 
+#txt h3 {
+    /*
+    color: #801A64;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20vw;
+*/
+    display: none;
+}
+
+
 #ommig_link,
 #portfolio_link {
-    width: 150px;
+    width: 300px;
     margin: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
+#trekant1 {
+    margin-bottom: 5vw;
+}
 
 /*OM MIG*/
 
