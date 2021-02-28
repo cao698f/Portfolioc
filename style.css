@@ -118,11 +118,15 @@ img {
     font-size: 1.3rem;
     font-family: 'aw-conqueror-dido', serif;
     line-height: 1.5;
-    margin-bottom: -2vw;
+    margin-bottom: 2vw;
 }
 
 #CVbillede {
-    margin-bottom: 12vw;
+    margin-bottom: 5vw;
+}
+
+#ommigcv {
+    margin-bottom: 17vw;
 }
 
 /*KNAP*/
@@ -355,20 +359,13 @@ section {
 
 
 
-    /*OM MIG*/
-
-    /*
-    #ommig1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-*/
 
     #CVbillede {
         width: 70%;
         margin-top: 10vw;
         margin-right: 15vw;
         margin-left: 15vw;
+        margin-bottom: 10vw;
 
     }
 
