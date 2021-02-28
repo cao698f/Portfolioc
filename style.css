@@ -263,6 +263,7 @@ section {
         margin-right: 20vw;
         margin-top: 5vw;
         margin-bottom: 10vw;
+        z-index: 10;
 
     }
 
@@ -281,7 +282,7 @@ section {
         display: inline;
         height: 30px;
         width: 300px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.46);
 
         position: fixed;
         /* Set the navbar to fixed position */
@@ -289,6 +290,7 @@ section {
         /* Position the navbar at the top of the page */
         width: 100%;
         /* Full width */
+        z-index: 20;
     }
 
     .content {
@@ -316,7 +318,7 @@ section {
 
     li a {
         color: white;
-        padding: 14px 80px;
+        padding: 16px 80px;
     }
 
 
@@ -355,21 +357,23 @@ section {
 
     /*OM MIG*/
 
+    /*
     #ommig1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+*/
 
     #CVbillede {
-        width: 60%;
-        margin-top: 15vw;
-        margin-left: 7vw;
+        width: 70%;
+        margin-top: 10vw;
+        margin-right: 15vw;
+        margin-left: 15vw;
 
     }
 
     #ommig1 h3 {
-        margin-top: 15vw;
-
+        margin-top: -5vw;
         margin-bottom: -20px;
         font-size: 4rem;
     }
@@ -377,7 +381,14 @@ section {
     #ommig1 p {
         font-size: 2rem;
         font-family: 'aw-conqueror-dido', serif;
-        margin-bottom: 2vw;
+        margin-bottom: 3vw;
+    }
+
+    #ommigcv {
+        width: 70%;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-bottom: 10vw;
     }
 
     /*KNAP*/
