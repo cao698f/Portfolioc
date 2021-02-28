@@ -104,8 +104,6 @@ img {
 }
 
 
-
-
 /*OM MIG*/
 
 #ommig1 h3 {
@@ -117,22 +115,31 @@ img {
 
 #ommig1 p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'aw-conqueror-dido', serif;
+    line-height: 1.5;
+    margin-bottom: -2vw;
+}
+
+#CVbillede {
+    margin-bottom: 12vw;
 }
 
 /*KNAP*/
 
+/*KNAP*/
 #knap {
     width: 100%;
     display: grid;
     justify-content: center;
+    align-content: center;
+
 }
 
 .button {
 
     display: inline-block;
-    padding: 1em 2em;
+    padding: 1em 3em;
     background-color: #801A64;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4px;
@@ -144,11 +151,6 @@ img {
     color: white;
     text-align: center;
     transition: all 0.15s;
-    position: relative;
-    z-index: 20;
-
-
-
 }
 
 a.button:hover {
