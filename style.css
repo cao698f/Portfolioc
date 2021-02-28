@@ -129,6 +129,15 @@ img {
     margin-bottom: 17vw;
 }
 
+
+/* Portfolio*/
+
+#portfolio {
+    width: 70%;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
 /*KNAP*/
 
 /*KNAP*/
@@ -413,7 +422,13 @@ section {
     }
 
 
-
+    #portfolio {
+        width: 70%;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 15vw;
+        margin-bottom: 5vw;
+    }
 
 
     #CVbillede {

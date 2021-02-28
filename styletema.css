@@ -146,6 +146,20 @@ a.button:active {
     color: #BBBBBB;
 }
 
+#menuknap {
+    margin: 10px;
+    display: inline-block;
+    font-size: 7vw;
+    color: #801A64;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20vw;
+
+}
+
+#logo {
+    width: 0%;
+}
 
 /*FOOTER*/
 footer {
