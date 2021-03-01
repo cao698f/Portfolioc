@@ -81,15 +81,8 @@ img {
 }
 
 #txt h3 {
-    /*
-    color: #801A64;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 20vw;
-*/
-    display: none;
+    color: black;
 }
-
 
 #ommig_link,
 #portfolio_link {
@@ -274,10 +267,13 @@ section {
         height: 47vw;
     }
 
+
     #txt h3 {
+
         text-align: center;
         color: #801A64;
     }
+
 
     #ommig_link,
     #portfolio_link {
